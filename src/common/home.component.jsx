@@ -35,7 +35,12 @@ class Header extends React.Component {
    </div>
    <div class="media-body">
      <h4 class="media-heading">Left-aligned</h4>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <div class="progress">
+ <div class="progress-bar" role="progressbar" aria-valuenow="50"
+ aria-valuemin="0" aria-valuemax="100" style="width:50%">
+   50%
+ </div>
+</div>
    </div>
  </div>
 
